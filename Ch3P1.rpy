@@ -10,7 +10,9 @@ label Ch3P1:
     stop music fadeout 1.0
     play music "Soundtracks/015 - Dying World.mp3" fadein 1.0
     scene BG_3 with fade
+	asdfsafsadf
     "Vậy là đã bao nhiêu năm rồi, kể từ khi ông Ines mất?"
+	asdfsdsadf
     "Kế từ đó, năm nào Azzurra cũng đến viếng mộ ông, chính vào ngày này-tức vào cái ngày ông mất. Chưa năm nào cô không đi với bộ mặt ảo não. "
 
 #Azzurra (ảo não):
@@ -24,6 +26,18 @@ label Ch3P1:
     hide Azu P53
     show Azu OngPietro at center
     P"  Thật tình cờ, không ngờ rằng lại có ngày, đoàn người đi viếng mộ của chúng ta lại trở nên đông đủ như thế."
+	 show Azu P53 at center
+	 
+    Az"……………."
+
+    "Cả thành phố này chỉ có vỏn vẹn mỗi một nghĩa trang ở phía Tây Bắc, gần sát sườn núi, xa khoảng 300 dặm kể từ vùng thánh địa. "
+    "Để đến đó,sdfsadfsdfsastraea. "
+    "Chỗ đó chẳng có cầu đá như vùng trung tâm đâu, chỉ có mỗi cây cầu gỗ mục nát, thành thử ai cũng ngao ngán cả. "
+    "Thế nên, chắc chắn cả bọn không thể nào đi một mình được. Lẽ hiển nhiên, người phu xe của chúng tôi chính là—"
+    hide Azu P53
+    show Azu OngPietro at center
+    P"  Thật tình cờ, không ngờ rằng lại có ngày, đoàn người đi viếng mộ của chúng ta lại trở nên đông đủ như thế."
+
 
     "Cha tôi tét sợi roi da lên lưng ngựa, cười sang sảng, nom thống khoái lắm."
     hide OngPietro
