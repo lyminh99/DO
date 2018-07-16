@@ -1,0 +1,38 @@
+﻿
+init python:
+
+    mr = MusicRoom(fadeout=1.0)
+
+    mr.add("Soundtracks/000 - Joy.ogg", always_unlocked=True)
+    mr.add("Soundtracks/000 - Opening song theme.ogg", always_unlocked=True)
+    mr.add("Soundtracks/001 - Dark Piano.ogg", always_unlocked=True)
+    mr.add("Soundtracks/002 - Finding.ogg", always_unlocked=True)  
+    mr.add("Soundtracks/003 - Sincere.ogg", always_unlocked=True)
+    mr.add("Soundtracks/004 - Lovely Bubbles.ogg", always_unlocked=True)
+    mr.add("Soundtracks/005 - Father and mother.ogg", always_unlocked=True)
+    mr.add("Soundtracks/11 2 2014 - 2_2.mp3", always_unlocked=True)
+    mr.add("Soundtracks/007 - Memories - Composed.ogg", always_unlocked=True)
+    mr.add("Soundtracks/008 - Stream f life.ogg", always_unlocked=True)
+    mr.add("Soundtracks/AUTUMN.mp3", always_unlocked=True)
+    mr.add("Soundtracks/010 - My love like winter.ogg", always_unlocked=True)
+    mr.add("Soundtracks/011 - My childhood.ogg", always_unlocked=True)
+    mr.add("Soundtracks/012 - 11 2 2013_2.mp3", always_unlocked=True)
+    mr.add("Soundtracks/013 - 11 2 2013_3.mp3", always_unlocked=True)
+    mr.add("Soundtracks/014 - Flyin_.mp3", always_unlocked=True)  
+    mr.add("Soundtracks/015 - Dying World.mp3", always_unlocked=True)
+    mr.add("Soundtracks/016 - Winter when i can_t see you.mp3", always_unlocked=True)
+    mr.add("Soundtracks/017 - untitled.mp3", always_unlocked=True)
+    mr.add("Soundtracks/018 - Azzura theme - Slowed.mp3", always_unlocked=True)
+    mr.add("Soundtracks/019 - Azzura theme.mp3", always_unlocked=True)
+    mr.add("Soundtracks/Demo2_3.mp3", always_unlocked=True)
+    mr.add("Soundtracks/021 - 2 6 2014_2.mp3", always_unlocked=True)
+    mr.add("Soundtracks/022 - Skipping.mp3", always_unlocked=True)
+
+    mr.add("Soundtracks/001 - SMM/001 - Summer Melody.mp3", always_unlocked=True)
+
+    renpy.music.register_channel("test_one", "sfx", False)
+    renpy.music.register_channel("test_two", "sfx", False)
+    renpy.music.register_channel("test_three", "sfx", False)
+    renpy.music.register_channel("test_four", "sfx", False)
+    renpy.music.register_channel("test_five", "sfx", False)
+    renpy.music.register_channel("test_six", "sfx", False)
