@@ -20,6 +20,7 @@ label Ch3P1_C1:
     show Azu P41 at center
     Az" Actually... it's not that I'm gloomy."
     Az" It's the flowers."
+#Azzurra (nhìn về phía Ana): 
 
     show Azu P40 at center
     Az" Don't you smell it? It's all over the place!"

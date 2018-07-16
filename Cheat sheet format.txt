@@ -5,12 +5,12 @@
 \?       ?" : dau hoi
 \!       !" : dau cham than
 \."\n\."\n\."    ..."    : 3 cham
-no blank : \n\r       (also the end of line)
+no blank : \n\r       (also the end of line)   "
 ^       "              : mo ngoac
 "Azzurra:    Az"      : format Azu
 "Hanes:      H"       : format Hanes
 "Anatolio:   A"       : format Ana
 "Elena:      E"       : format Elena
-"Mr Pietro:  P"       : format Pietro
+"Mr. Pietro:  P"       : format Pietro
 "Crowd:     DD"       : format Crowd
     : tab format ^
