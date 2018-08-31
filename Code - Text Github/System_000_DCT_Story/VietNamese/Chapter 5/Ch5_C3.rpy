@@ -2,10 +2,10 @@ label Ch5_C3:
 
     stop music fadeout 1.0
     play music "Soundtracks/012 - 11 2 2013_2.mp3" fadein 1.0
-    " Không được."
-    " Ngay khi ý niệm vừa cất, đã dội lên một giọng nói trong đầu ngăn cản tôi."
-    " Đó là giọng của tôi, hay còn một ai khác."
-    " Dù vậy, linh cảm xấu đúng là có thật."
-    " Có lẽ, tôi phải…"
-
+    "You shall not do it."
+    "Hardly has the thought formed in my head than that voice rings out."
+    "I can't tell if that voice belongs to my alter-ego or someone else."
+    "Whatever it is, that voice is not alone: I have a very, very bad feeling about this course of action."
+    "Very well."
+    "To the lake it is."
     return
