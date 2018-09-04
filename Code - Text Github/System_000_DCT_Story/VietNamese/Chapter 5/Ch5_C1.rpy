@@ -6,424 +6,481 @@ label Ch5_C1:
     scene BG_23a with fade
     stop music fadeout 1.0
     play music "Soundtracks/012 - 11 2 2013_2.mp3" fadein 1.0
-    nvlDC"\n I have been asking myself “Anatolio, you fool, what are you even doing?” all the way to the lake."
-    nvlDC"\n I'm not... quite calm right now. True, if I were calmer, more rational, I would have realized this is as bad a choice as every other option I have. If not much, much worse."
-    nvlDC"\n If these people (assuming they really are Aurora people) do not mean well, I'd be... well, not quite dead, I tell myself. Just a bit unprepared, that's all. Unprepared is bad, but not that bad, right, right?"
-    nvlDC"\n Worse still would be if someone I know (and I'm sure that number is far too large for comfort) sees me discussing whatever matter with suspicious people... well, let's not dwell on what the Church would have done to the likes of me then!"
-    nvlDC"\n Why am I even so brave again?"
-    nvlDC"\n Is it because of Azzurra?"
-    nvlDC"\n Or because of that curiosity innate to an arrogant fellow who eats, drinks and breathes the notion that he can handle everything life throws his way?"
-    nvlDC"\n Or perhaps both?"
-    nvlDC"\n In any case, now I'm standing right there, in front of the lake."
-    nvlDC"\n My right hand brandishes a gnarly-looking branch freshly snagged from an old tree nearby. I'd loathe to be unarmed if bad comes to worse."
-    nvlDC"\n The lake's great bank is as peaceful as it normally is. The sky is clear and cloudless. Up there, a million stars sparkle before my eyes, so real and so close yet so far – as if you'd only need to reach out, and there they'd be."
-    nvlDC"\n I clutch my chest with my free hand, and then sit down on the grass."
+    nvlDC"Vừa đi ra bờ hồ, tôi vừa tự hỏi, 'Anatolio, mày đang làm cái quái gì thế này?'"
+    nvlDC"\n Tôi đang không được bình tĩnh lắm – phải, nếu bình tĩnh một chút, suy nghĩ lý tính một chút, tôi đã hiểu được rằng việc tôi đang làm ngay lúc này đây là một ý tưởng rất, rất tồi."
+    nvlDC"\n Nếu họ – những người của Aurora – có ý xấu, tôi sẽ... chưa chắc chết, tôi tự nhủ, chỉ là hơi bị động thôi; phải, chỉ là bị động thôi!"
+    nvlDC"\n Thế còn nếu bất cứ ai, bất cứ người nào tôi biết (số ấy thực ra không nhỏ như tôi tưởng) bắt gặp tôi đang gặp 'họ', tôi sẽ... tôi thực sự không dám nghĩ tiếp Giáo hội sẽ làm gì với một thằng như tôi nữa. "
+    nvlDC"\n Thực sự, tôi cũng không hiểu tại sao tôi lại dũng cảm như vậy. Vì Azzurra chăng? Hay vì thói tò mò cố hữu của một thằng thiếu niên luôn tự tin rằng mình có thể giải quyết được bất cứ điều gì, miễn là có đủ nhiệt tình và nhiệt huyết?
+\n 
+    "
+    nvlDC"\n Hay là cả hai?
+\n 
+    "
+    nvlDC"\n Tôi chỉ biết là bây giờ tôi đang đứng trước bờ hồ, tay lăm lăm cầm một cây gậy gỗ. Nếu có chuyện gì xảy ra, phải, nếu có bất trắc gì, tôi cũng không muốn đối mặt với điều đó trong tình trạng tay không tấc sắt. "
+    nvlDC"\n Khoảng đất trống trước bờ hồ hôm nay vẫn yên ắng như thường lệ. Bầu trời trong vắt, không một gợn mây. Các vì sao sáng lấp lãnh trước mắt tôi, long lanh đấy, huyền ảo đấy, thế mà lại thật gần, tưởng như có thể sờ được, chạm được."
+    nvlDC"\n Tôi hít một hơi thật dài, rồi ngồi bệt xuống thảm cỏ.
+    "
     nvl clear
 
-    A" Let it be, Anatolio. Let it be. Everything will be fine..."
+    A"  Kệ nó đi. Chắc không có chuyện gì xảy ra đâu."
 
+    " Nói thế đấy, nhưng trống ngực tôi nãy giờ cứ  đập thình thình không thôi, tưởng như chỉ một tiếng động nhỏ thôi cũng khiến lồng ngực tôi vỡ tung."
+    " Và thế là tôi ngồi đợi."
+    " Năm phút."
+    " Mười phút."
+    " Mười lăm, hai mươi, ba mươi phút."
+    " Kiên nhẫn của tôi cạn dần theo từng nhịp đếm đông hồ."
 
-    nvlDC"\n It's hard to persuade myself when my chest is thumping like a thousand drums. As if just one tiny sound, just one, would be enough to make my breast explode."
-    nvlDC"\n So I wait."
-    nvlDC"\n Five minutes."
-    nvlDC"\n Ten."
-    nvlDC"\n Fifteen. Twenty minutes. Half an hour."
-    nvlDC"\n My patience trickles away with every passing second."
+    A"  'Họ' cho mình leo cây rồi chăng?"
 
-    A" Did they stand me up?"
-    nvlDC"\n The feeling of being tricked passes down to my club hand. Where there was once anxiety, now there is disappointment. Let's put it like this: An appointment with the likes of Aurora is still something so new and alien and exciting to good old me, more than anything else I can reasonably get in life.  "
-    nvlDC"\n And then there is the matter with Azzurra, too."
-    nvlDC"\n Ever since this afternoon I've been trying to make heads or tails out of the mere notion that Azzurra might have something to do with these people."
-    nvlDC"\n The most logical explanation is that Azzurra and her complicated life has drawn unwanted attention. Naturally, someone who caused a large chunk of the city to go ballistic in just a simple action, well, she'd be extraordinary, even though she has no desire for it."
-    nvlDC"\n And someone extraordinary, I think with a shudder, will be pulled into the affairs of grown-ups – and not just any grown-up, but the powerful."
-    nvlDC"\n But what about me? Why me? Why Anatolio Pietro, the son of a caravaneer forced into retirement because of his health and a housewife all too normal in this City? What have I got to my name other than “Azzurra's friend”?	So it's Azzurra at the end of the day."
-    nvlDC"\n Of course, if these people choose not to show up, there's absolutely nothing I can do about all that."
-    nvlDC"\n I shake my head and sigh again."
-    nvlDC"\n And then I hear something... a sound I've never heard before."
-    nvlDC"\n I look around, and into the lake. The sound repeats itself again, and I can swear I see the water's surface moving just a little. Or rather, something underneath the surface."
-    nvlDC"\n And then it stops – as suddenly as it started."
-    nvlDC"\n I clutch the stick in my hand as if my life depends on it, and step closer to the edge."
-    nvlDC"\n No, the water is absolutely still now. Am I dreaming?"
-    nvlDC"\n Again I sit down... and again the noise begins again. Like someone was swimming and purposefully raising as much noise as they could, and stopping the moment I stand up."
-    nvlDC"\n And again, and again, and again."
-    nvlDC"\n What in the name of the Creator is happening here?"
-    nvlDC"\n Okay, Anatolio, you have to calm down. Calm down!"
-    nvlDC"\n What are the possibilities?"
-    nvlDC"\n Either someone is playing a prank on me..."
-    nvlDC"\n Or..."
-    nvlDC"\n A ghost. Or demon. Or evil spirit. Something that can snap my neck like a twig before I can scream “HELP!”"
-    nvlDC"\n Either case... would it not be wise that I make myself scarce, as soon as humanly possible? In fact, that's what I'll do, right about now!"
-    nvlDC"\n And then just as my back was turned to the lake..."
+    nvlDC"Cảm giác bị lừa phỉnh khiến tôi bắt đầu thả lỏng tay cầm gậy. Sự lo lắng lúc trước bắt đầu nhường chỗ cho sự thất vọng. Nói gì thì nói, 'một cuộc hẹn với Aurora' dù gì đi nữa vẫn khiến thằng tôi cảm thấy vô cùng lạ lẫm, hơn hẳn bất kỳ một cuộc hẹn thông thường nào.."  
+    nvlDC"\n Đấy là chưa kể lời 'hứa' của họ về Azzurra. "
+    nvlDC"\n Phải, Azzurra.
+    "
+    nvlDC"\n Từ chiều đến giờ tôi vẫn đang cố gắng lý giải liệu Azzurra liên quan gì đến hội Aurora. "
+    nvlDC"\n Lý giải hợp lý nhất là thân thế của Azzurra và những rắc rối của cậu ấy kể từ khi cậu ấy xuất hiện. Phải rồi, tất nhiên một người đã khiến cho cư dân thành phố sôi lên sùng sục phải là một cá nhân đặc biệt."
+    nvlDC"\n Mà đã là cá nhân đặc biệt, tôi rùng mình, thì dù muốn dù không cũng sẽ bị cuốn vào những cuộc cạnh tranh của người lớn. 
+    "
+    nvlDC"\n Thế nhưng còn thằng tôi thì sao? Anatolio Pietro, con trai của một thương nhân bị buộc về hưu và một bà nội trợ như mọi bà nội trợ khác trong cái thành phố này có gì đặc biệt ngoại trừ việc 'là bạn thân của Azzurra'?"
+    nvlDC"\n Azzurra. Cuối cùng mọi đầu mối lại quy về Azzurra."
+    nvlDC"\n Tôi lại lắc đầu và thở dài. "
+    nvlDC"\n Bỗng nhiên tôi nghe thấy có tiếng động lạ dưới mặt nước. Có cái gì đó – cái gì đó – đang chuyển động dưới mặt nước...
+\n 
+    "
+    nvlDC"\n … rồi lại im bặt. 
+\n 
+    "
+    nvlDC"\n Tôi nắm chắc cây gậy trong tay, bước lại gần mép nước. "
+    nvlDC"\n Mặt nước lại yên tĩnh như cũ.
+\n 
+    "
+    nvlDC"\n Ảo ảnh chăng?
+\n 
+    "
+    nvlDC"\n Tôi lại ngồi xuống... và lại nghe thấy tiếng bì bõm như có ai đang lội nước."
+    nvlDC"\n Tôi lại đứng lên... và tiếng động lại im bặt."
+    nvlDC"\n Lặp đi lặp lại như thế đến mấy lần."
+    nvlDC"\n Chuyện gì đang xảy ra vậy?
+    "
+    nvlDC"\n Tôi cố trấn tĩnh. Một trong hai khả năng: Có ai đó đang chơi tôi, hoặc là... hoặc là..."
+    nvlDC"\n … có ma. Hoặc quỷ. Hoặc quái vật. Hoặc một cái gì đó có thể bẻ cổ tôi đắng rốp trước khi tôi kịp hét 'Bớ làng nước ơi!'"
+    nvlDC"\n Trong cả hai trường hợp đó, đặc biệt là trường hợp thứ hai, tốt hơn hết là tôi phải rời khỏi đây. Càng nhanh càng tốt!"
+    nvlDC"\n Tôi vừa quay lưng lại, định bỏ chạy thì...
+    "
     nvl clear
     stop music fadeout 1.0
-    C0" Anatolio. Anatolio Pietro, am I correct?"
+    C0"  Anatolio. Anatolio Pietro, phải không?"
     play music "Soundtracks/021 - 2 6 2014_2.mp3" fadein 1.0
-    " My hair stands on end."
-    " Brain says “Run!”. Legs say “No can do!”. And my heart, my curious-to-a-fault heart, that has been overly excited all this while? “Stop right there”, it says."
-    " I end up following the call of my heart. Perhaps that's why I am a fool."
+    " Tóc gáy tôi dựng đứng. Não tôi bảo 'Mày phải chạy!'. Chân tôi bảo 'Không chạy được!'. "
+    " Trái tim tôi, trái tim tò mò trời đánh của tôi, nó lại bảo 'Đứng yên đó!'."
+    " Cuối cùng tôi tuân theo lời trái tim. Có lẽ, một phần vì tôi là một thằng đần."
 
-    A" W... who goes there?"
+    A"  Ai... ai vậy?"
 
-    "I hear no answer... yet. In the meantime, my ears register the sound of water parting and someone... something emerging from the bowels of the great lake."
-    "Slowly, slowly, slowly, I turn around. My grasp around the stick hardens."
-    "And then my jaw drop. What... is that thing I'm seeing?"
-    "Appearing before my eyes is an alien object. In the dead of night it is hard to describe the blasted thing in great detail. I can only tell it's a spherical thing, the size of a nobleman's carriage and infinitely more... fortified?"
-    "And it is floating up from under the surface."
-    "Then it drifts to the bank, slowly and calmly as though having all the time in the world."
-    "Then it makes landfall. A portion of the sphere splits open, like a miniature sort of a drawbridge, and falls on the ground with a dull thump."
-    "From deep within, something – no, someone – appears. Definitely a someone, I conclude after a second look. They have a head, a body and all four limbs..."
-    "That someone nods at my general direction, then takes his very leisurely steps towards me, hands behind his back."
+    " Tôi không nghe thấy tiếng trả lời, nhưng có tiếng rẽ nước và có tiếng một ai đó... một vật thế gì đó đang trồi lên từ dưới mặt hồ."
+    " Tôi từ từ, từ từ, từ từ quay lại, bàn tay tôi nắm chặt chiếc gậy."
+    " Và rồi, ngay sau đó, tôi há hốc mồm. Kỳ lạ chưa! "
+    " Đứng trước mặt tôi là một vật thể lạ. Trong bóng đêm, tôi không nhìn rõ nó thực ra là cái gì. "
+    " Tôi chỉ biết nó là một vật hình cầu, to như một cái xe ngựa kéo, đang từ từ nổi lên trên mặt nước."
+    " Vật thể ấy cứ thế trôi dạt về phía bờ, chậm chậm, từ tốn như thể có thừa thời gian."
+    " Và rồi một mặt hình cầu ấy bật mở như một chiếc cầu treo, hạ đánh ụp một cái xuống nền đất."
+    " Và rồi từ trong vật thể lạ... một người bước xuống. Hoặc ít ra, một... thứ gì đó tôi nghĩ là một người, vì trông có đủ đầu, mình và chân tay."
+    " Vật thể – không, người – đó, chậm rãi bước về phía tôi, tay chắp sau lưng."
 
-
-    A" W-who are you? What- what do you want?"
+    A"  Ông... ông muốn gì ở tôi?"
     show Azu Paul P2 at center
-    C0" First order of business; you'd best calm down, young man."
-    A" S-stop right there! I tell you!"
+    C0"   Bình tĩnh nào, cậu bé. "
+    A"  Đừng lại gần! Đừng lại gần tôi!"
 
-    "He... does exactly what I said?"
-
-    show Azu Paul P1 at center
-    C0" If you'd like."
-
-    show Azu Paul P0 at center
-    C0" Though I'd rather you dispense with the big stick. I thought tonight is meant to be a time for a serious discussion, not a brawl."
-
-    "I look at my stick, and then back at the stranger under the moonlight."
-    "Even in that light, I'm not sure if I caught any detail out of the ordinary in that man. And I'm sure he's a man (if he is human, which I guess he sort of is), because of his square jaw with a rather rough-looking beard."
-    "Sure, he's half a head taller than I am, and wears that merchantly bowler hat – fur coat combo that Dad's friends all have in their wardrobe one or a dozen."
-    "He looks much like my father in age and demeanor: the moonlight reveals a halfway greying mass of hair and a collection of wrinkles on his forehead, just above his big bushy brows."
+    " Người lạ mặt dừng lại."
 
     show Azu Paul P1 at center
-    C0" Well? What are you waiting for, my good lad?"
-    A" Y-you won't hurt me, will you?"
+    C0"  Nếu cậu muốn."
     show Azu Paul P0 at center
-    C0" Do you think you'd still be around if I wished to do you harm? We are Aurora, young man. The light in the darkness, and in essence a bit of both."
+    C0"  Nhưng trước hết, cậu có thể bỏ cái gậy xuống được không? Ta nhớ rằng ta hẹn cậu tới đây để nói chuyện, không phải để đánh nhau."
 
-    "The stick falls off my hand as if in its own accord."
-    A" Y-you mean... you are Aurora? The real deal?"
+    " Tôi nhìn xuống chiếc gậy, rồi lại nhìn về phía người lạ mặt. "
+    " Ánh trăng rọi xuống người ấy... và chẳng tiết lộ thêm được chi tiết nào đáng chú ý. "
+    " Người lạ mặt cao hơn tôi nửa cái đầu, đội một chiếc mũ phớt và bận bộ áo lông thương gia mà bất cứ bạn bè nào của cha tôi cũng có dăm ba bộ. "
+    " Ông ta – tôi dám chắc là đó là một người đàn ông, vì hàng râu cằm lởm chởm và hàm bạnh ra – cũng nhìn tôi, rồi gật đầu."
+    " Ánh trăng rội xuống khuôn mặt ông ta, và tôi bắt đầu chú ý tới từng chi tiết một trên khuôn mặt ấy. "
+    " Ông đã đứng tuổi, chắc vào tầm tuổi cha tôi. "
+    " Mái tóc ông đã ngả màu muối tiêu, những nếp nhăn sâu hoắm hằn lên trên trán phía trên hàng lông mày rậm và xù.  "
 
-    "I'm not sure if I've just become more or less calm."
+    show Azu Paul P1 at center
+    C0"  Nào, cậu bé, cậu còn đợi gì nữa? "
+    A"  Ông... ông sẽ không làm hại tôi chứ?"
+    show Azu Paul P0 at center
+    C0"  Nếu ta muốn làm hại cậu, cậu nghĩ bây giờ cậu còn ở đây sao? Nên nhớ chúng ta là Aurora. Chúng ta là ánh sáng trong bóng tối."
+
+    " Chiếc gậy rơi khỏi bàn tay tôi."
+
+    A"  Ông là Aurora thật chứ? "
+
+    " Lấy lại bình tĩnh, tôi vẫn không tránh được sự hồ nghi."
     stop music fadeout 1.0
     play music "Soundtracks/015 - Dying World.mp3" fadein 1.0
     show Azu Paul P1 at center
-    C0" Paul Attenborough, at your service. Know that today I represent the Organization before you, that's all that matters."
-    A" Attenborough? Your name is... rather..."
-
+    C0"  Paul Attenborough. Cậu chỉ cần hiểu ngày hôm nay ta đại diện cho Aurora – thế là đủ."
+    A"  Attenborough? Cái tên của ông... rất là..."
     show Azu Paul P2 at center
-    Pa" Uncommon is the word. 'Tis the only thing keeping the likes of me linked to a time long past. Long history, great glory, that sort of things they don't like to teach these days."
+    Pa"  Lạ, đúng không? Giải thích ra thì thật là dài dòng... hãy tạm hiểu tên của ta là một kỷ niệm. "
     show Azu Paul P0 at center
-    Pa" Well, but I suppose we aren't meeting today to discuss the etymological roots of the name of my sire, no?"
-    A" I... suppose so...  "
+    Pa"  Phải, một kỷ niệm từ một thời xa xưa không còn lưu trong sách sử nữa."
+    Pa"  Chính vì vậy, ta thường dùng cái tên “AltMann”, có thể hiểu là “Ông già”, cốt để khỏi quá khác biệt."
+    show Azu Paul P1 at center
+    Pa"  Nhưng cả hai chúng ta đều hiểu hôm nay cậu gặp ta không phải để tò mò về nguồn gốc ngôn ngữ học của cái tên của ta, phải không?"
+    A"  Có lẽ. "
 
-    "Another deep breath, another look to the right, and then to the left. We're alone. Good."
+    " Tôi hít một hơi thật sâu, nhìn phải, rồi nhìn trái, rồi nhìn đằng sau. Không có ai ở đây. Tốt."
 
     show Azu Paul P1 at center
-    Pa" That's a bit unnecessary. I've already taken care of the observation part for you. If any of them Church people are around in a one-mile radius, I would not have made landfall."
-    A" H-how would you even know about that?"
-
+    Pa"  Cậu khỏi cần phải lo. Ta đã quan sát kỹ – nếu có người của Giáo hội trong bán kính một dặm, ta đã không xuất đầu lộ diện. "
+    A"  Chú... làm sao chú biết được?"
     show Azu Paul P3 at center
-    Pa" Because in the world there exists this wonderful thing called a submarine, and on that thing there's an even more wonderful thing called a periscope."
-    "The man tosses a prideful look at the machine – because that's what the spherical thing turns out to be – still beaching majestically at the bank."
+    Pa"  Bởi vì trên thế giới có tồn tại một món đồ chơi tuyệt diệu gọi là cái tàu lặn"
+    show Azu Paul P1 at center
+    Pa"  Và trên đó có gắn một món đò chơi còn tuyệt diệu hơn gọi là cái kính tiềm vọng."
 
-    A" Sub-submarine? So this is..."
-    "I'm quite sure I've seen either a sketch or a rough blueprint of something to that effect in Mr. Ines' old notes. It doesn't even come close to ghosting the real deal."
+    " Người đàn ông liếc về phía chiếc máy – bây giờ tôi mới nhận ra nó đúng là một chiếc máy – vẫn đang nổi trên mặt nước."
+
+    A"  Đây có phải là…?"
+
+    " Tôi nhớ mình đã từng thoáng thấy qua bản phát của nó trong sổ tay của ông Ines, "
+    " Nhưng chính xác thì tôi chưa bao giờ thấy thứ gì tương tự ở ngoài đời thực."
 
     show Azu Paul P1 at center
-    Pa" Actually an insignificant achievement among the many things we've done. "
+    Pa"  Một phần rất, rất nhỏ trong số những thành tựu của Aurora. "
     show Azu Paul P3 at center
-    Pa"  Compared to those other things that Aurora has got made over the last decade or two, this machine falls into the “flashy toy for novelty's sake” niche rather than anything noteworthy."    
+    Pa"  So với những thứ khác Aurora đã gây dựng được trong nhiều năm qua, cỗ máy này chỉ là một món đồ chơi cho trẻ con, không hơn không kém. "
     show Azu Paul P0 at center
-    A" Is... is that true? But I've heard..."
+    Pa"  Chắc cậu từng nghĩ thế này"
+    show Azu Paul P1 at center
+    Pa"  chúng ta là những kẻ bỏ đạo, lưu manh, sống ngoài rìa thế giới, bị Thần Mặt trời và các vị thiện thần bỏ rơi, đúng không?."
+    show Azu Paul P2 at center
+    Pa"  Tìm kiếm một thế giới không tồn tại. Đúng không?"
+    A"  Cũng không hẳn."
+
+    " Thật tình tôi không đủ dữ kiện để phán xét Aurora. "
+    " Trên hết, tôi cũng không muốn rước thêm bận tâm nên cũng chẳng mấy khi tìm hiểu một di tích của quá khứ."
+    " Nực cười là cái di tích ấy giờ đang xuất hiện trước mặt tôi, trẻ khỏe hơn bao giờ hết."
 
     show Azu Paul P1 at center
-    Pa" Heard that we're apostates, thugs, charlatans and outlaws who don't care about such a thing as the Creator, His Court, and therefore devoid of all morality. "
+    Pa"  Cậu biết gì không, cậu bé? Tất cả những điều đó đều đúng... theo một cách hiểu nào đó."
+    A"  Cháu xin lỗi – cháu không hiểu... vậy thật ra Aurora là cái gì?"
+    show Azu Paul P0 at center
+    Pa"  Có một điều cậu cần phải hiểu, cậu bé, đó là Aurora không phải là một thể thống nhất như Giáo hội. "
+    show Azu Paul P0 at center
+    Pa"  Chúng ta là những con người tự do, có chủ kiến riêng của mình, có quan niệm sống, suy nghĩ, lý tưởng, có tư duy riêng... "
     show Azu Paul P2 at center
-    Pa"  Giving up the Creator's infinite mercy, searching for a world that doesn't exist. That what you mean?"
-    A" I, well, I wouldn't actually go that far."
-    "Hanes would, knowing him, but not me. I don't have the sort of objective data I would like to have before passing judgement on such an alien thing as Aurora. And most of all, it is hardly like me to commit too much brainpower to studying the relics of a past that doesn't quite concern me."
-    "Except, well, that relic is right here, in front of me, and still going rather strong at that."
+    Pa"  Chỉ có một điểm chung duy nhất: chúng ta xích lại với nhau với một mục đích chung, đó là 'tìm hình của thế giới'. "
+    show Azu Paul P0 at center
+    Pa"  Cậu ắt đã nghe qua, đúng không nào?"
+    A"  Đúng. Giáo hội – không, cha cháu nói rằng các chú tin rằng có một thế giới khác nằm ngoài thế giới chúng ta đang sống... "
+    A"  Một thế giới bên kia đường chân trời."
+    show Azu Paul P1 at center
+    Pa"  Chúng ta không gọi đó là 'niềm tin' hay 'đức tin'. "
+    show Azu Paul P0 at center
+    Pa"  'Đức tin' là một phạm trù mang tính tôn giáo, tin tưởng vào một cái gì đó mà không cần đếm xỉa đến chứng cứ khoa học bất khả phủ bác. "
+    show Azu Paul P1 at center
+    Pa"  Đó là 'công việc' của Giáo hội."
+    show Azu Paul P2 at center
+    Pa"  Thế nhưng bản chất của thế giới lại khác hoàn toàn. "
+    show Azu Paul P0 at center
+    Pa"  Chúng ta có cơ sở để nghi ngờ rằng rằng thế giới mà chúng ta đang sống từng là một phần của một thế giới lớn hơn – "
+    show Azu Paul P1 at center
+    Pa"  Hay thậm chí vẫn đang là một phần của thế giới ấy."
+    A"  Có cơ sở như vậy sao?"
+    show Azu Paul P2 at center
+    Pa"  Cậu thử nghĩ xem – mọi sự việc, sự vật, hiện tượng trong vũ trụ bao la này đều mang tính kế thừa. "
+    show Azu Paul P0 at center
+    Pa"  Mọi thứ đều có quá trình, có lịch sử, có chu trình phát triển của nó. "
+    show Azu Paul P1 at center
+    Pa"  Một cách dễ hiểu hơn, Anatolio không phải sinh ra đã 16 tuổi"
+    show Azu Paul P0 at center
+    Pa"  Mà phải trải qua một quá trình dài dằng dặc "
+    show Azu Paul P1 at center
+    Pa"  Sinh ra, ẵm ngửa, biết bò, biết đứng, biết đi, biết chạy, học nói, học chữ, học đọc, học viết, học làm người... học đủ thứ. "
+    show Azu Paul P0 at center
+    Pa"  Đúng không nào?"
+
+    " Tôi gật đầu. Quả thật, nếu tôi sinh ra đã 16 tuổi như hôm nay, mọi thứ đã đơn giản hơn bao nhiêu."
+
+    show Azu Paul P0 at center
+    Pa"  Thế nhưng thế giới của chúng ta... không có lịch sử. Chúng ta chỉ biết những gì xảy ra trong khoảng 300 năm trở lại đây. "
+    show Azu Paul P2 at center
+    Pa"  Trước đó lịch sử thế nào, ra sao... không ai biết. "
+    show Azu Paul P0 at center
+    Pa"  Không ai biết thế giới này hình thành thế nào. Các loài sinh vật tiến hóa ra sao. "
+    show Azu Paul P2 at center
+    Pa"  Mảnh đất này có những biến động địa chất như thế nào. Khí hậu biến đổi ra sao. "
+    show Azu Paul P0 at center
+    Pa"  Xã hội hình thành thế nào và do những yếu tố nào chi phối. Có những cá nhân kiệt xuất như thế nào, đóng vai trò gì trong lịch sử. "
+    show Azu Paul P2 at center
+    Pa"  Không ai được biết."
+    show Azu Paul P0 at center
+    Pa"  Không cần đến những người đọc sách – những người có chút trí tuệ cũng có thể đặt dấu hỏi: tại sao lại như thế nhỉ?"
+    A"  Và các chú muốn trả lời câu hỏi đó đúng không?"
+    show Azu Paul P1 at center
+    Pa"  Đó là mục tiêu chung nhất của chúng ta, đúng thế."
+    A"  Nếu... nếu đúng như vậy thì... thì tại sao vẫn không có ai tin theo các chú?"
+    show Azu Paul P0 at center
+    Pa"  Bởi vì quan điểm của Giáo hội... biết nói thế nào nhỉ? "
+    show Azu Paul P1 at center
+    Pa"  Là cái mà chúng ta hay gọi là 'Argumentum ad ignorantiam' "
+    show Azu Paul P0 at center
+    Pa"  Tạm dịch ra ngôn ngữ phổ thông là 'chúng ta đúng vì chưa ai chứng minh rằng chúng ta sai'. Sai lầm, thật sai lầm."
+    show Azu Paul P2 at center
+    Pa"  Thế nhưng đối với số đông quần chúng ít học, ít đọc và sùng đạo, đó lại là một cái nạng khá tốt. "
+    show Azu Paul P0 at center
+    Pa"  Không cần phải suy nghĩ. Các vị thần biết hết, quyết hết. Một cuộc sống không cần phải suy nghĩ tới những thứ nằm ngoài phạm vi cá nhân."
+    show Azu Paul P1 at center
+    Pa"  Ta đã quan sát cậu. Cậu rất thông minh, lại thích tìm tòi. Ta nghĩ cậu cũng hiểu."
+    A"  Thật ra cháu chỉ làm cho vui là chính—Vả lại cháu cũng ít đọc sách rồi. "
+    A"  Nói ra thật xấu hổ, Azzurra đọc chắc còn nhiều hơn—Có điều cô nàng—"
+
+    " Paul vỗ tay vào nhau đánh bộp một cái."
 
     show Azu Paul P1 at center
-    Pa" Well, but to an extent – from a certain point of view – the Church would have been right, labeling us so."
-    A" I beg your pardon? I'm not sure I get it – then what is Aurora?"
+    Pa"  Azzurra. Azzurra Ines. Phải rồi."
     show Azu Paul P0 at center
-    Pa" Lots of things. But I'll tell you what we are not, because that is relevant to why you and I are even meeting here in the first place."
-    show Azu Paul P0 at center
-    Pa" We're not an united, structured regimens like the Church. We're a conglomeration of free people. We are independent in our thoughts and deeds, in our beliefs and preferences, and only in a very broad ideology do we find a common standpoint."
+    Pa"  Mong cậu thứ lỗi cho ta – thói quen của mấy tên mọt sách thật là khó sửa. Hôm nay ta muốn gặp cậu chính là về chuyện của Azzurra."
+    A"  Chú biết những gì về Azzurra sao? Chú biết gì về gia đình cô ấy?"
     show Azu Paul P2 at center
-    Pa" That common point? We're all in this together, to find 'the shape of the world'. You've certainly heard of the controversy, as well-read as you are."
-    A" I think, yes? The Church... no, my father said that you believe there is a world beyond the world we live. A world beyond the horizon, if such a thing exists?"
-
+    Pa"  Cậu sẽ không phiền nếu ta hỏi cậu trước chứ? Cậu đã biết những gì về hoàn cảnh của Azzurra?"
+    A"  Có phải... 'Cô chú' của Azzurra là... là những kẻ giả danh không ạ?"
+    show Azu Paul P0 at center
+    Pa"  Tại sao cậu lại nghĩ vậy?"
+    A"  Bởi vì... bởi vì cháu nghĩ thế. Thế thôi ạ."
     show Azu Paul P1 at center
-    Pa" Calling it “belief” or “faith” would be denying what we do the credit it deserves."
-
+    Pa"  Đấy là sức mạnh của cái ta gọi là 'đức tin' đấy – "
     show Azu Paul P0 at center
-    Pa" But the nature of the world is much different. We have grounds to doubt that the world we live in today is all that there is. "
+    Pa"  Cậu không có bằng chứng, không có cơ sở, chỉ một niềm tin vào sự đúng đắn của tư duy của cậu."
+    show Azu Paul P2 at center
+    Pa"  Thế nhưng ta rất lấy làm tiếc phải cho cậu biết rằng lần này 'đức tin' của cậu đặt đúng chỗ."
+    show Azu Paul P2 at center
+    Pa"  Đúng, hai người tự nhận là gia đình của Azzurra là những kẻ mạo danh."
+    A"  Làm sao chú biết được ạ?"
+    show Azu Paul P0 at center
+    Pa"  Bởi vì ta quen họ. Hildegarde von Schellendorf và Ernest von Kirchoff. Hai trong số những đồng sự thân nhất của ta."
+    A"  Tại sao? Tại sao họ lại phải làm như vậy?"
+    show Azu Paul P2 at center
+    Pa"  Aurora đã hết kiên nhẫn. "
+    show Azu Paul P0 at center
+    Pa"  Đã bao năm nay chúng ta đã tìm đủ cách, xoay đủ nguồn để tìm cho ra sự thật, bất chấp nguy hiểm, khó khăn, thiếu thốn... "
     show Azu Paul P1 at center
-    Pa" Suffice to say, our world according to us used to be part of a greater over-world... or even still is."
-    A" H-how so?"
+    Pa"  Có một số người như Hildegarde và Ernest muốn giải quyết vấn đề bằng bất kỳ giá nào."
+    A"  Thế nhưng việc này liên quan gì tới Azzurra ạ?"
     show Azu Paul P2 at center
-    Pa" Think about it. Everything in this wide universe – every object, every event, every life... exist in a process rather than in a vacuum."
+    Pa"  Bởi vì Azzurra là... không, được cho là chìa khóa giải quyết vấn đề cho cả hai phía. "
     show Azu Paul P0 at center
-    Pa" Everything has its due process and history – how it came to be, and how it has become like we know it."
+    Pa"  Ta không rõ Giáo hội nghĩ sao"
     show Azu Paul P2 at center
-    Pa" Picture this: Anatolio Pietro is not born twenty."
+    Pa"  Nhưng nhóm của Hildegarde và Ernest cho rằng để tìm ra bằng chứng xác thực về sự tồn tại của thế giói bên ngoài thế giới"
+    show Azu Paul P0 at center
+    Pa"  Họ cần phải có Azzurra."
     show Azu Paul P1 at center
-    Pa"   He's been through twenty years: an infant first, then a toddler, then a curious schoolboy, an overly active teenager... and finally the fine young man as he stands before me today."
-    show Azu Paul P0 at center
-    Pa"  Everything that is has a beginning and a process."
-
-    "That makes sense. Though I have to admit: If I had been born a twenty-year-old man like I am today, that would have saved us all a lot of trouble."
-
-    show Azu Paul P0 at center
-    Pa" And yet... our world doesn't have the kind of history it should have."
-    show Azu Paul P2 at center
-    Pa"  We only know of our history dating back to three hundred years ago.  "
-    show Azu Paul P0 at center
-    Pa"  Whatever happened before that, and how the world came to be at that three-hundred-years-ago threshold... nobody knows. "
-    show Azu Paul P2 at center
-    Pa" How did it form? How did the animal and plant kingdoms came to be? How did the world's geological features came to be? "
-    show Azu Paul P0 at center
-    Pa"  And the climate, did it stay the same or did it change? And our society, too! How did the City come to be? What factor dictated its course?  "
-    show Azu Paul P2 at center
-    Pa"  Who are those people, if any, who shaped it before history was recorded? Nobody knows, nobody can answer."
-    show Azu Paul P0 at center
-    Pa" You don't even need to be well-read to pose those “whys” and “hows”."
-    A" And you want to answer those questions?"
+    Pa"  Điều này... ta đã nói với cậu rồi đấy. 'Đức tin'. Niềm tin không có cơ sở khoa học."
+    A"  Vậy... nếu thế tại sao chú lại cho cháu biết điều này? Chẳng phải chú là người của Aurora sao?"
     show Azu Paul P1 at center
-    Pa" That's indeed the thread that binds us."
-    A" But... if it makes so much sense as you've just told me... why doesn't anyone buy it?"
+    Pa"  Cậu hãy nghĩ thế này đi: Sau khi chúng ta tìm ra được bản chất thế giới, chúng ta sẽ làm gì sau đó?"
+    A"  Cháu không hiểu?"
     show Azu Paul P0 at center
-    Pa" Not a lot rather than nobody, mind you. At any rate, the reason is because... "
-
-    show Azu Paul P1 at center
-    Pa"  The official Church stance is what we like to call  'Argumentum ad ignorantiam'. Argument in Ignorance."
-    show Azu Paul P0 at center
-    Pa"  We are right because nobody has proven we're wrong. Hardly sensible... or scientific."
+    Pa"  Những gì chúng ta đã biết cho thấy rằng thế giới bên ngoài kia... không, 'sự thật' là một cái gì đó đẹp và quý giá cực kỳ."
     show Azu Paul P2 at center
-    Pa" And yet to the vast majority of the uneducated mass, the crutch that ignorance and religion provide is a pretty good one. You don't need to do. "
+    Pa"  Nhưng nếu để vươn tới sự tươi đẹp ấy đòi hỏi sự hy sinh to lớn của một cô bé không sẵn sàng hy sinh như thế... "
     show Azu Paul P0 at center
-    Pa"  The Creator knows all, and decides everything in the best way there is. All you need to do is to follow the scriptures, and that's all that matters."
-    show Azu Paul P1 at center
-    Pa" For a while now, we've been keeping an eye on people in the City who'd perhaps like to ask these questions unbidden. That means you, Anatolio. A smart boy with a love for observation. You understand what I mean."
-    A" I... well, I'm flattered, but I'm not exactly a career scholar. I read because it's fun, that's all. And of late, I think Azzurra might actually be reading more than I do-"
+    Pa"  liệu cái đẹp ấy có đáng không?"
 
-    "Paul's hands clap."
+    " Ông Attenborough chừa cho tôi một ít thời gian suy nghĩ. Tất nhiên, tôi không hề lãng phí ân huệ đó."
 
-
-    show Azu Paul P1 at center
-    Pa" Azzurra. Azzurra Ines. That's it."
-    show Azu Paul P0 at center
-    Pa" Pardon my rambling – a bad habit of an old bookworm. Really hard to kill. Yes, indeed, today I want to talk to you about Azzurra, that's why we're here."
-    A" D-do you know something about Azzurra? Her family?"
-    show Azu Paul P2 at center
-    Pa" Would you mind if I asked you first? What do you know about Azzurra? About her state of affairs?"
-    A" Are Azzurra's 'family'... impostors?"
-    show Azu Paul P0 at center
-    Pa" Intriguing. Why would you think that?"
-    A" Because... well, because that's what I think. That's all."
-    show Azu Paul P1 at center
-    Pa" Ah, and again “Faith” proves its might. "
-    show Azu Paul P0 at center
-    Pa"  You had no solid proof, no evidence, no basis whatsoever. Only a blind faith in the correctness of your instinct."
-    show Azu Paul P2 at center
-    Pa" Sadly, though, this time around your faith is in the right place. "
-
-    show Azu Paul P2 at center
-    Pa" Those two people claiming to be Azzurra's family? Anything but that."
-    A" How do you know this?"
-    show Azu Paul P0 at center
-    Pa" Because I know them."
-    Pa" Hildegarde von Schellendorf, Ernest von Kirchoff. Some of my closest aides, and I am deeply upset that it has come to this."
-    A" But why? Why did they have to resort to..."
-
-    show Azu Paul P2 at center
-    Pa" As an organization Aurora's patience has been running dry. "
-    show Azu Paul P0 at center
-    Pa"  It's been many years, you see, and our people have been alternating between fighting for their own survival in a world that hates them, and finding out this ever elusive truth."
-    show Azu Paul P1 at center
-    Pa" Hildegarde and Ernest are just two among quite a few who want to see it end by any means necessary. And I can't say I am not sympathetic."
-    A" But... how does this concern Azzurra at all?"
-    show Azu Paul P2 at center
-    Pa" Because Azzurra is... no, we think she may be the key that will answer our questions, for us and for the Church alike."
-    show Azu Paul P0 at center
-    Pa" I'm not sure how much stock the Church puts in a “chaosspawn” like they've labeled her. "
-    show Azu Paul P2 at center
-    Pa" I do know that Hildegarde and Ernest and their group have this rather strong belief that Azzurra might actually have within her the key to the world outside ours. Even literally so.
-    show Azu Paul P1 at center
-    Pa" Again, a matter of “Faith”, Unreasonable, unbridled faith."
-    A" If that is indeed the case... why are you even telling me this? Aren't you Aurora yourself?"
-    show Azu Paul P1 at center
-    Pa" Think for yourself. If you were us, what would you do after we find out that precious, naked truth about what our world is?"
-    A" What... exactly do you mean?"
-    show Azu Paul P0 at center
-    Pa" What I mean is, we are scientist, and we worship the precious truth as our god – at least, that's what it appears."
-    show Azu Paul P2 at center
-    Pa" But if we are to throw conscience to the four winds just for a chance at that truth. Would it be worth it? What would that make us?  "
-
-    "Mr. Attenborough gives me a pause – for me to think. This time, my brain works well enough."
-
-    A" I agree... sir. I don't know about that truth, or whether it's really all that it's made out to be."
-    A" I do know that I'm not just going to take it if someone tries to do harm to Azzurra on my watch!"
+    A"  Cháu không rõ liệu cái đẹp ấy là gì và mỹ miều ra sao..."
+    A"  Cháu chỉ biết rằng... nếu có ai đụng vào Azzurra. Chắc chắn, cháu sẽ sống mái với kẻ đó, bất kể đó là ai!"
     show Azu Paul P3 at center
-    Pa" Good! That's what I want of you. That's why I sought you out."
-    A" Because... you can't intervene?"
- 
+    Pa"  Tốt! Ta không nhầm khi tìm gặp cậu."
+    A"  Chú tìm cháu? Vì sao vậy?"
     show Azu Paul P0 at center
-    Pa" Smart man. Yes, that's it. Principles do not allow me to stand in their way myself, because from the Organization's perspective my... friends have done nothing wrong. And a few other matters, which I must beg you not to mind."
+    Pa"  Nguyên tắc. Nguyên tắc không cho phép ta đối đầu trực diện với họ. Và còn một số vấn đề khác nữa cậu không cần phải biết. "
     show Azu Paul P1 at center
-    Pa" But you... well, you're an outsider. And if an outsider can break whatever my friends are planning, discreetly... this episode shall be over and nobody needs to be hurt."
-    A" What if I... uh, fail?"
+    Pa"  Tóm lại ta không thể can dự trực tiếp."
     show Azu Paul P0 at center
-    Pa" Then you can figure that out yourself. Hildegarde and Ernest did not go all that length to acquire Azzurra as a foster niece."
-    show Azu Paul P1 at center
-    Pa" So, what say you?"
-    "What say I? What say I? Can there be any answer other than..."
-    A" I'll do it. Please tell me what I need to do!"
-    "I try not to show any sort of fear. Yet my hands are still clenched into fists; my back is drenched in cold sweat."
-
-    show Azu Paul P0 at center
-    Pa" I need you to help me find a couple of things in my friends' place. Of course, if you can get away with bringing Azzurra with you, that'd be even better."
-    "Then he steps closer to me, and hands me a thick-looking envelope. This one is devoid of any Aurora symbol."
-
-    show Azu Paul P1 at center
-    Pa" All you need to know is in here. Follow your instruction, and all shall be well."
-    show Azu Paul P3 at center
-    Pa" Well, it's been a pleasure, and now I have to go. Doubtlessly we'll see each other again after your success."
-
-    "Then he turns his back to me, and begins pacing towards his 'submarine' again."
-    A" W-wait! Mr. Attenborough!"
-    A" Why would you entrust me with all this? What if I... well, what if I decide to give this over to Father Fredo?"
-
-    show Azu Paul P0 at center
-    Pa" I bet everything I have, that Anatolio Pietro's arrogance will prevent you from doing just that."
-    show Azu Paul P1 at center
-    Pa" Besides, it would do neither of you any favor to get the Church involved. And I can't be hurt by any treachery on your part worse than I have already been. "
-
+    Pa"  Nhưng cậu lại khác... "
     show Azu Paul P2 at center
-    Pa" You're dealing with a man long wanted, to whom the Creator's 'mercy' might as well not exist."
-    show Azu Paul 0 at center
-    Pa" And then..."
-    A" And then?"
+    Pa"  Nếu cậu có thể phá hỏng kế hoạch này một cách khéo léo, mọi thứ sẽ trôi vào quên lãng mà không ai phải chịu tổn thương."
+    A"  Vậy nếu cháu... thất bại thì sao? "
     show Azu Paul P0 at center
-    Pa" Hildegarde and Ernest got proper Church-sanctioned paper to assume guardianship of Azzurra. How do you think this happened?"
+    Pa"  Thì cậu tự hiểu, đúng không? Hildegarde và Ernest không phải muốn mang Azzurra về để làm bạn."
     show Azu Paul P1 at center
-    Pa" You're a smart man. Think for yourself."
+    Pa"  Thế nào? Cậu chấp nhận giúp ta chứ?"
+    A"  Cháu sẵn sàng. Vậy cháu phải làm những gì ạ?"
 
+    " Tôi cố gắng không tỏ ra sợ hãi. Thế nhưng hai bàn tay tôi vẫn nắm chặt, mồ hôi tứa ra đầm đìa ướt cả lưng áo."
+
+    show Azu Paul P0 at center
+    Pa"  Ta cần cậu tìm giúp ta một vài thứ trong nhà của hai người bạn ta. Giải cứu cô bạn của cậu cũng là một phương án chấp nhận được."
+
+    " Rồi Paul bước lại gần hơn về phía tôi, chìa ra cho tôi một chiếc phong bì dày. "
+
+    show Azu Paul P1 at center
+    Pa"  Mọi hướng dẫn chi tiết ta đã ghi lại đầy đủ cho cậu ở đây. Làm theo lời ta, và mọi việc sẽ ổn."
+    show Azu Paul P3 at center
+    Pa"  Thế nhé – bây giờ ta phải đi. Khi nào thành công, chúng ta sẽ gặp lại nhau."
+
+    " Nói rồi Paul quay lại, bắt đầu bước về phía chiếc tàu lặn hình cầu."
+
+    A"  Khoan đã!"
+    A"  Tại sao chú lại tin tưởng giao việc này cho cháu? "
+    A"  Nếu... nếu như – giả dụ cháu mang những thứ này báo cho cha Fredo thì sao?"
+    show Azu Paul P0 at center
+    Pa"  Ta cá bằng toàn bộ gia sản rằng tính kiêu ngạo của cậu sẽ ngăn cậu trước khi cậu làm việc đó. "
+    show Azu Paul P1 at center
+    Pa"  Vả lại, chắc cậu cũng đoán ra, khi đó cậu và cô bé bạn cậu sẽ là những người duy nhất chịu thiêt thòi. "
+    show Azu Paul P2 at center
+    Pa"  Cậu biết đấy – cái tên Paul Attenborough không tồn tại – chúng ta đều là những kẻ bị 'ruồng bỏ'. "
+    show Azu Paul P0 at center
+    Pa"  Quyền lực của Thần Ánh sáng của họ không với tới được chúng ta. "
+    show Azu Paul P2 at center
+    Pa"  Hơn nữa..."
+    A"  Hơn nữa?"
+    show Azu Paul P0 at center
+    Pa"  Cậu nghĩ bằng cách nào mà Hildegarde và Ernest có thể kiếm được giấy tờ hợp lệ theo quy định của Giáo hội để phục vụ cho 'nhiệm vụ' của họ?"
+    show Azu Paul P1 at center
+    Pa"  Cậu là người thông minh. Hãy tự suy nghĩ và tự trả lời."
     A"  …."
     show Azu Paul P0 at center
-    Pa" And please do can it with the grimacing. Hardly becoming of a scholar, I say!"
+    Pa"  Đừng làm vẻ mặt đăm chiêu như thế. Lúc cậu suy nghĩ, nó nhăn lại như ruột mèo ấy!"
 
-    "Mr. Attenborough steps on his vessel. His parting words, as were everything else about him this night, fills me with a vague kind of dread."
+    " Attenborough bước lên chiếc tàu lặn. Ông vừa bước vừa nói những câu đầy ẩn ý. Ví dụ ư? Tôi ấn tượng rất rõ với câu nói như thế này:"
 
     show Azu Paul P1 at center
-    Pa" Oh, and never you mind how I know everything I need to know about you. "
+    Pa"  À nhân tiện. Đừng thắc mắc vì sao ta lại quá rõ tính cách của cậu nhé. "
     show Azu Paul P0 at center
-    Pa"  Never you mind, too, of what has become of those things you planted into the river some years ago. We have sources, that's all you need to know."
+    Pa"  Nó cũng giống như việc cậu thắc mắt liệu chúng ta đã làm gì với mớ dị vật cậu thả xuống sông đấy. "
+    show Azu Paul P2 at center
+    Pa"  Rối rắm và phức tạp. Tuyệt nhiên là chẳng tới đâu cả."
     show Azu Paul P0 at center
-    Pa" But as a group we highly value your original ideas. All you need to do is to be more thoughtful and less overly proud..."
+    Pa"  Tuy nhiên, chúng ta-Aurora-cũng phải có lời khen ngợi với người nghĩ ra ý tưởng đó đấy. "
+    show Azu Paul P1 at center
+    Pa"  Ước gì cậu ta bớt ngạo mạn đi một chút là hay."
     hide Azu Paul P1 
-    "Then the drawbridge mechanism folds back again, the enigmatic benefactor vanishing behind it. The vessel leaves the bank, and disappears into the lake as it has appeared."
-    "The lake returns to its usual peace."
-    "And I? I have an envelope that heralds the end of my own peace."
+    " Rồi, như thể không muốn trả lời thêm bất cứ câu hỏi nào nữa, ông từ từ khép cánh cửa lại... "
+    " Rồi quả cầu bắt đầu lặn xuống, biến mất dưới mặt nước như nó đã xuất hiện."
+    " Mặt hồ trở lại sự yên bình vốn có của nó."
+    " Chỉ còn mình tôi trên bờ hồ với chiếc phong bì dày."
 
 #Cảnh: Nhà Pietro (Phòng Anatolio)
 #Thời gian: Tối
     scene BG_13 with fade
 
-    "I've been flipping over the envelope for a while now."
+    "Tôi lật đi lật lại chiếc phong bì hồi lâu."
 
-    nvlDC"\n Within it, there are a few things: A map, three gold coins and a bronze key, all wrapped within a single note."
-    nvlDC"\n 	<DOCUMENT RECEIVED>"
-    nvlDC"\n How long have I been sitting there like a log, or pacing about my room to the hundredth time after reading those lines?"
-    nvlDC"\n My emotions are a real mess. I don't think I've ever been more afraid."
-    nvlDC"\n It isn't because of Mr. Attenborough's 'affluence' or power. It is what the whole gamut of those fancy things he presented before my eyes – probably on purpose – is supposed to evoke."
-    nvlDC"\n Never I mind? For real! They've been watching me, and even broke one of my plans! And now they're intervening in our lives, too."
-    nvlDC"\n That's right. My life, Azzurra's life, her identity is not even half of the cause of our problems."
-    nvlDC"\n We're being played like fiddles – puppets on a stage of these people's making. And by 'these people', I mean both Aurora and the Church. I am like a pawn in a game I hardly understand, much less try to turn the table."
-    nvlDC"\n Of course, it is one thing being worried, and another to actually act."
-    nvlDC"\n I don't put all that much stock in Mr. Attenborough's words, and I don't think anything Aurora related is completely trustworthy."
-    nvlDC"\n But then, what if he is completely honest to me? What about that then? That means Azzurra is in more danger than she has ever been before!"
-    nvlDC"\n Do I have a choice any more then?"
-    nvlDC"\n And then there is a part of me, that childish excitable part, that apparently thinks taking part in what seems to be a scene from a detective fiction to be an incredibly delightful thing."
-    nvlDC"\n Ultimately, I pocket the three coins. That's more than I've ever had in my purse. I shouldn't, in hindsight, have taken so much money from a stranger."
-    nvlDC"\n But then the other half of me laughs it off. I couldn't have turned it down even if I had a mind to – I didn't know it was there until I opened the envelope."
-    nvlDC"\n Besides, leaving the City so far alone for what is essentially a spy mission? I need to be very well prepared indeed."
-    nvlDC"\n I begin poring over the map."
-    nvlDC"\n The more I look, the more astonished I become. We are indeed living in a world far larger than I thought it was."
-    nvlDC"\n History and myths over the past few generations have recorded down the land in the West and South in great details, yet the lands in the North between the Vitus and the Lucina, the derelict land, has been pretty much unmapped."
-    nvlDC"\n Aurora has done this in lieu of anyone else."
-    nvlDC"\n My fingers trace the map. Every detail, road, every brooks and streams, every mounds and hills, every acre of woodland... all mapped out, all properly connoted. It is almost like Aurora was declaring to the rest of our world, that this is their lands."
-    nvlDC"\n In my excitement I almost gloss over a cross in the land still technically within Church control. “Schallendorf”, it reads."
-    nvlDC"\n A chill runs down my spine."
-    nvlDC"\n Aurora has virtually freed themselves from that existential prison we thought we've got them trapped in. Now they've become something, capable of challenging the rest of us open society."
-    nvlDC"\n Do I – would I – want to be embroiled into that circle?"
-    nvlDC"\n No, if I do this, I will be part of that strife, whether I want to or not."
-
+    nvlDC"Bên trong chiếc phong bì chỉ có một tấm bản đồ, ba đồng tiền vàng và một chiếc chìa khóa bằng đồng, được bọc trong một bức thư ngắn."
+    nvlDC"\n"
+    nvlDC"\n {i}“Nếu cậu đọc được những dòng chữ này, không cần biết cậu đang ở đâu, có nghĩa là cậu đã đồng ý làm theo lời ta.”    {/i}"
+    nvlDC"\n {i}“Thực chất kế hoạch của ta rất đơn giản: Ba ngày trước khi diễn ra cái gọi là Lễ hội Mặt trời – ngày 3/6, tất cả các thành viên Aurora sẽ tập trung lại, bàn cách đối phó. Đây là cơ hội duy nhất để cậu có thể can thiệp.”    {/i}"
+    nvlDC"\n {i}“Nếu cậu muốn giải cứu Azzurra, cậu chỉ cần bước vào nhà của hai người đồng sự của ta, và – nếu thị giác của cậu vẫn còn tốt – bước ra cùng với cô bé trong vòng năm phút đồng hồ. Chiếc chìa khóa này mở được tất cả mọi cửa nẻo trong ngôi nhà nhỏ của nhóm Schellendorf.”    {/i}"
+    nvlDC"\n {i}“Đó là thứ cậu cần. Thế còn cái ta cần lại là một thứ khác, và ta hy vọng cậu sẽ giúp ta tìm ra thứ đó nếu cậu thấy tiện.”    {/i}"
+    nvlDC"\n {i}“Trong ngôi nhà cậu sẽ tìm thấy một cái két sắt. Bên trong đó là những tài liệu nghiên cứu của nhóm Schallendorf về bản chất của thế giới chúng ta đang sống. Ngoài ra, ta dám chắc nếu họ có liên hệ với Giáo hội để thỏa thuận việc Azzurra, cậu sẽ tìm thấy thư từ liên quan trong đó.”    {/i}"
+    nvlDC"\n {i}“Ta cần cậu kiếm giúp ta cả hai thứ đó và mang cho ta trước khi họ nhận ra ta đứng sau việc này. Lần cuối cùng ta kiểm tra, mã số mở két là N1B31-1-1NG-3N1-13D. ”    {/i}"
+    nvlDC"\n {i}“Dĩ nhiên, lựa chọn là của cậu – nhưng ta dám bảo đảm bằng danh dự của một nhà khoa học rằng cậu sẽ không chịu thiệt nếu cậu giúp ta việc này.”    {/i}"
+    nvlDC"\n {i}“Nếu cậu nhận lời, hãy coi như ba đồng tiền vàng này là tiền đặt cọc kèm lộ phí. Nếu không, hãy coi đó là món quà của một nhà khoa học rảnh rỗi có chút tiền tiêu vặt trong tay.”    {/i}"
+    nvlDC"\n {i}“Chúng ta sẽ liên lạc sau khi cậu mang được Azzurra về nhà an toàn. Cho tới lúc đó, chúc cậu may mắn, luôn tỉnh táo và suy nghĩ lý tính.”    {/i}"
+    nvlDC"\n"
+    nvlDC"\n Tôi không nhớ tôi đã thứ người ra bao lâu và đi lại trong căn phòng nhỏ của tôi mấy trăm lần sau khi đọc được những dòng ấy."
+    nvlDC"\n Cảm xúc trong tôi loạn trào: Lo sợ, đến run người. Tôi tuyệt nhiên không phải lo sợ vì uy quyền hay sự giàu có của người đàn ông mang tên Attenborough. Tôi đang run vì những thứ choáng ngợp vừa được phơi bày trước mặt mình. “Đừng thắc mắc” ư? Làm sao có thể được chứ? Rõ ràng họ đã âm thầm theo dõi sau lưng tôi, phá hỏng những ý tưởng của tôi. Rồi giờ họ lại can thiệp vào chính chúng tôi. Cuộc đời tôi và Azzurra chưa chắc chỉ chịu một áp lực của thân phận như chúng tôi nghĩ. Cái đáng sợ hơn chỉ hiềm còn chực chờ phun trào ra như dung nham có ngày, khi mà nghi vấn của tôi trở thành thực, khi mà chúng tôi chẳng khác nào những con rối trong tay họ. Cả Giáo Hội. Và Aurora. Hai thế lực này đang tạo cho tôi một ám ảnh đáng nể"
+    nvlDC"\n Tất nhiên, lo là một chuyện, cứu Azzurra là một chuyện khác. Tôi không tin lắm những lời của Attenborough, và cũng chưa chắc tôi sẽ tin vào lời bất kỳ thành viên Aurora nào nữa. Dù vậy, biết làm sao được chứ! Nếu giả sử lời của ông ta là thật, Azzurra hiện tại đang nằm trong hoàn cảnh cực kỳ nguy hiểm. Phải, tôi không có lựa chọn nào khác. Và lại, tham gia vào một điệp vụ tưởng chùng như chỉ có trong truyện trinh thám quả thật mang cho tôi sự hồ hởi tuyệt vời."
+    nvlDC"\n Cuối cùng, tôi cũng cất ba đồng vàng vào trong túi áo. Chưa bao giờ tôi cầm trong tay nhiều tiền thế. Một phần tôi cảm thấy áy náy – đáng ra tôi đã không nên nhận tiền của một người lạ như thế. Phần khác, tôi lại gạt đi. Tôi không có cách từ chối. Với lại, nếu tôi muốn đi khỏi thành phố như vậy tôi cần chuẩn bị đầy đủ."
+    nvlDC"\n Tôi bắt đầu nghiên cứu tấm bản đồ. Càng xem, tôi càng ngạc nhiên: Thế giới của chúng tôi rộng lớn hơn tôi tưởng. Những áng sử văn, những tác phẩm địa lý trong mấy chục năm gần đây đã vẽ nên khá chi tiết khoảng đất phía Tây và Nam, nhưng còn phía Bắc, giữa dãy Vitus và sông Lucina, mảnh đất bỏ hoang suốt bao nhiêu lâu nay, gần như chưa được họa đồ."
+    nvlDC"\n Aurora đã làm việc này khi không ai khác đứng ra đảm nhiệm."
+    nvlDC"\n"
+    nvlDC"\n {i}Tay tôi lần lần mặt bản đồ: Từng chi tiết, từng con đường, từng nhánh sông suối, từng ngọn đồi, từng khoảnh rừng đều được vẽ nên và chú thích cẩn thận. Cứ như là Aurora đang tuyên bố với phần còn lại của thế giới, “Đây là lãnh thổ của chúng ta”.    {/i}"
+    nvlDC"\n {i}Tôi suýt nữa bỏ qua một dấu gạch chéo trên vùng đất chưa quá ranh giới kiểm soát của giáo hội, có ghi chú đàng hoàng “Schallendorf”.    {/i}"
+    nvlDC"\n {i}Tôi bất giác rùng mình. Dường như họ đã thoát khỏi cái xác là một hội kín từ lúc nào không biết, và bây giờ đang trỗi dậy, trở thành một thế lực sẵn sàng thách thức trật tự thế giới.    {/i}"
+    nvlDC"\n {i}Liệu tôi có muốn bị cuốn vào vòng xoáy ấy không? Không, nếu tham gia vào vụ việc này, dù muốn dù không, tôi có bị cuốn vào vòng xoáy ấy không? {/i}"
+    nvlDC"\n"
     nvl clear
 
     A"  Azzurra..."
 
-    "Yes, that's what I have to think. I'm not doing this for myself. I do this for Azzurra (though, to be fair, three gold coins is enough to live a reasonably high life for a few weeks)."
+    " Đúng, tôi phải nghĩ như vậy. "
+    " Tôi làm việc này không phải vì bản thân mình, mà là vì Azzurra "
+    " (Mặc dù ba đồng vàng đủ để tôi ăn tiêu phè phỡn được cả tháng là ít, Tôi buộc phải thừa nhận)."
 
-    A" Time to be decisive, Anatolio. Right, right... decisive... decisive,,,"
-    "My muttering continues until the early morning."
+    A"  Mày phải quyết đoán hơn đi, Anatolio. Đúng... quyết đoán... quyết đoán..."
+
+    " Tôi cứ thế làm nhảm cho tới tận gần sáng."
 
 #Cảnh: Đường phố
 #Thời gian: Sáng
     stop music fadeout 1.0
     play music "Soundtracks/022 - Skipping.mp3" fadein 1.0
     scene BG_6 with fade
-    nvlDC"\n Five days before the Sun Festival. I still need a proper, detailed plan."
-    nvlDC"\n That does not mean I have not begun the brainstorming over the last two."
-    nvlDC"\n I told my parents I'll be going to the lake to draw for the whole day. “Live a life as a child while I still technically can,” I said, and that seems fair enough. Apparently, my parents think the same."
-    nvlDC"\n But then comes the problem of how I am supposed to come to that house and back. Five to six hours on foot, that's the road, and I don't think I can cover ten hours of solid walking in a day."
-    nvlDC"\n If I have a horse or hitch a hike on a kind someone's carriage, I can cut it down to two to three hours. But then, imagine Anatolio the bookworm suddenly leaving the City just less than a week before the Festival."
-    nvlDC"\n Yeah, that's going to raise all kinds of red flags all right."
-    nvlDC"\n That's not to mention if any problem arises on the road, I would be a sitting duck. All of these issues, I've come up with no good solution throughout the past two days."
-    nvlDC"\n And then I come across my nemesis – I mean, my salvation."
-    nvlDC"\n You know who she is. A sassy noblewoman with hair like a stream of gold and a signature red dress."
-    nvlDC"\n Elena. Elena is back as she used to, before the incident three years ago. Since the bridges reopened, she's been frequenting our part way more often."
-    nvlDC"\n Normally I'd make up my mind very quickly. Run, or go talk to her, depending on (i) who she has with her, (ii) her expression and demeanor, and (iii) where exactly we are."
-    nvlDC"\n Today I just don't have the mental capacity to think all that through."
-    nvlDC"\n After all, she did give me one favor after another."
-    nvlDC"\n Should I ignore her this time? Or not? Decisions, decisions..."
-    nvlDC"\n Of course, our eyes has met before I actually make that decision."
-    nvlDC"\n Elena's eyes blink. And I am a man petrified."
-    nvlDC"\n Anatolio Pietro, you are busted."
+    nvlDC"Hôm nay đã là năm ngày trước khi Lễ hội Mặt trời bắt đầu, và tôi cần một kế hoạch cụ thể và tỉ mỉ."
+    nvlDC"\n Nói vậy không có nghĩa là trong hai ngày vừa qua tôi chưa nghĩ ra một kế hoạch. Tôi đã báo cho cha mẹ tôi sẽ đi ra bờ hồ vẽ cả ngày. 'Con muốn hưởng thụ nốt những ngày làm trẻ con' – nghe có vẻ hợp lý. Ít ra, đối với cha mẹ tôi lý do này nghe có vẻ hợp lý."
+    nvlDC"\n Thế nhưng việc đến ngôi nhà ấy thế nào và trở về ra sao lại là một vấn đề nan giải khác. Từ nhà tôi tới nhà của 'cô chú' Azzurra ước chừng bốn, năm giờ đồng hồ đi bộ. Mặt khác, tôi không dám chắc tôi có đủ sức đi bộ mười tiếng đồng hồ trong một ngày.    "
+    nvlDC"\n Nếu tôi có ngựa hoặc đi nhờ xe ngựa thồ của mấy tay lái buôn, có thể rút xuống còn chừng hai ba tiếng. Thế nhưng một thằng nhóc như tôi tự dưng lại cưỡi ngựa hoặc quá giang xe thồ ra ngoại thành ngay trước ngày bắt đầu Lễ hội Mặt trời chắc chắn sẽ gây ra sự chú ý không cần thiết."
+    nvlDC"\n Đấy là chưa kể nếu có biến cố gì xảy ra trên đường, tôi sẽ không có cách nào giải quyết cả. Suốt cả ngày hôm qua, tôi vẫn không nghĩ ra được biện pháp nào khả dĩ."
+    nvlDC"\n Cho tới khi tôi gặp vị khắc tinh – í lộn, cứu tinh của tôi trong lốt một cô bé tinh nghịch với mái tóc dài vàng óng và bộ váy áo đỏ rực thướt tha.    "
+    nvlDC"\n Vâng, Elena đang đi dạo phố cùng với hai người tùy tùng. Từ khi cây cầu thông thương trở lại, cô nàng đến đây nhiều hơn."
+    nvlDC"\n Bình thường, tôi sẽ quyết định rất nhanh: bỏ chạy, hoặc bắt chuyện với Elena, tùy vào việc (i) có những ai đi theo cô nàng, (ii) nét mặt và thái độ của cô nàng, và (iii) chúng tôi đang ở đâu. Hôm nay tôi không có đủ độ nhanh nhạy để phản ứng kịp lúc."
+    nvlDC"\n Một phần cũng vị tôi lưỡng lự trước những ân huệ cô ban cho hôm nọ.    "
+    nvlDC"\n Ủa mà tôi có yêu cầu cô giúp đâu chứ?"
+    nvlDC"\n Hay là kệ nhỉ? "
+    nvlDC"\n Ánh mắt của tôi và của cô nàng chạm nhau trước khi tôi kịp đưa ra phương án thích hợp. Mắt Elena sáng lên. Tức thì tôi đứng sững như trời trồng. "
+    nvlDC"\n"
+    nvlDC"Vâng, Anatolio Pietro, ngươi đã bị bắt. Elena rảo bước lại gần phía tôi và nhún mình một cách không-thể-lịch-thiệp-hơn."
     nvl clear
 
     show Azu Ele P005 at center
 
-    "Elena narrows her eyes mischievously, and I spontaneously breaks down in sweat."
-    A" E-Elena. Didn't think you'd come to this... not-rich parts."
-    "Very eloquent, Anatolio. Just very eloquent."
-    E" Ana speaks strangely, doesn't he? Didn't Elena come here often back in the days? And Ana? It isn't like Ana to go shopping alone, is it?"
-    "Elena stares at me, as if drilling into my eyes."
-    A" I..."
-    E" Is Ana all right? Ana must have caught a cold, has he?"
-    "I stand still. Like a statue. Like a really awkward statue."
-    A" N-no, I'm fi-"
-    E" Ana does not need to hide. Elena understands Ana, doesn't she?"
-    "And I'm dead. Has there ever been any one instance when I've got a secret to hide that Elena didn't figure out?"
-    "But she can't do that now. Not this time. I must not let her!"
-    "I must think of something, anything, and fast!"
-    "I scratch my head."
-    A" R-right. Here's the deal—"
-    "A figurative flash of lightning courses through my brain. Why didn't I think of this earlier?"
-    "I forge the most sorrowful face I can craft."
-    A" -I'm just in a bit of a vise. Bit of misfortune. Would you mind if we talk a bit later?"
-    "I inject a bit of my signature arrogant 'don't-pity-me' into the statement for good measure."
-    "Did I manage to trick her? Or not?"
-    "Now Elena's first reaction is a characteristic “Elena knows it” smile. That's just what she does – reveling in her understanding of other people's mind."
-    "But then her face sinks a little."
-    
+    E"  Buổi chiều tốt lành, Ana."
+
+    " Elena nheo mắt nhìn tôi. Tôi bắt đầu đổ mồ hôi hột."
+
+    A"  Chào Elena. Cậu... không bị ướt à?"
+
+    " Tôi buột miệng nói ra một câu sỗ sàng…đến hết biết."
+
+    E"  Ana nói gì kỳ quái vậy? Hôm nay Elena đi mua sắm, ướt thế nào được chứ?. "
+    E"  Còn Ana? Gặp Ana ở đây, Elena thấy lạ quá. Bình thường Ana đâu có qua khu phố này mấy?"
+
+    " Elena nhìn xoáy vào mắt tôi."
+
+    A"  Tớ-"
+    E"  Ana làm sao vậy? Ana bị ốm phải không?"
+
+    " Tôi chết trân như trời trồng."
+
+    A"  K-không, làm gì có-"
+    E"  Ana đừng giấu Elena. Elena hiểu Ana mà, phải không?"
+
+    " Thôi chết tôi rồi, tôi nghĩ thầm. "
+    " Từ xưa đến nay, mỗi khi tôi có bí mật nào tuyệt đối cần phải giấu, y như rằng Elena sẽ tìm ra cách để lật tẩy tôi. "
+    " Nhưng lần này Elena không được phép làm thế – tôi không được phép cho Elena làm thế."
+    " Tôi phải nghĩ ra một cái gì đó. Nhanh lên mới được, bất cứ cái gì."
+    " Tôi bèn làm bộ gãi đầu."
+
+    A"  Thôi được rồi. Tớ nói đây—"
+
+    " Một tia chớp lóe xuyên qua đầu tôi. Đúng rồi, tại sao tôi không nghĩ ra chứ? Tôi bèn làm bộ mặt buồn rầu nhất có thể."
+
+    A"  -tớ có chuyện không được vui. Nên lúc này tớ không có tâm trạng nói chuyện đươc chứ?"
+
+    " Vận dụng phong cách ngạo mạn, tôi kiên quyết lừa Elena."
+    " Ờ mà—"
+    " Rốt cục thì tôi có lừa được cô nàng không vậy?"
+    " Phản ứng đầu tiên của Elena là sự đắc chí theo đúng kiểu “biết ngay mà”: "
+    " Elena rất thạo đọc vị người khác, và cô nàng quá hiểu điều này. Nhưng ngay sau đó mặt cô nàng bỗng chùng xuống."
+
     show Azu Ele P016 at center
 
-    E" Elena thought so. But Ana needs not worry. Ana is Elena's friend, is he not?"
-    "Her voice lowers, and my anxiousness rises."
-    E" More than friend, right, Ana? So Ana will let Elena know what the misfortune is, won't he?"
-    "Normally I'd flush red, or jump, or both. Today I'm too busy making a suitable answer."
-    "What would that 'suitable answer' be, hmm?"
+    E"  Elena cũng nghĩ như thế. Nhưng Ana đừng lo, Ana là bạn của Elena mà, đúng không?"
+
+    " Cô nàng chợt hạ giọng một cách đáng ngờ."
+
+    E"  Hơn cả bạn bè nữa mà, đúng không Ana? Ana sẽ cho Elena biết chứ, phải không Ana?"
+
+    " Mọi khi tôi sẽ đỏ mặt, nhảy dựng lên, hoặc là cả hai. Hôm nay, tôi đang bận nghĩ cách nói gì thì phù hợp nhất."
+    " Tôi phải nói gì với Elena bây giờ? " 
 
     return
