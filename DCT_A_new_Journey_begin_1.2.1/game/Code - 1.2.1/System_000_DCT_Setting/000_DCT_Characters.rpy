@@ -32,7 +32,6 @@
                         what_color="#c4d551", kind=nvl)
     $ nvlDC = Character(_(""),
                         color="#ffffff",
-                        what_slow_cps=20,
                         what_size=35, kind=nvl)
     #$ config.adv_nvl_transition = dissolve
     #$ config.nvl_adv_transition = dissolve
