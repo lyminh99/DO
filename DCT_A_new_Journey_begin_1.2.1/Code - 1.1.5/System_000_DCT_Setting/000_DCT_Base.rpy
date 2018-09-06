@@ -1,0 +1,47 @@
+﻿init :
+    define Ch1P1_C1_played = 0
+    define Ch1P1_C2_played = 0
+    define Ch1P1_C3_played = 0
+    define Ch1P2B1_C1_played = 0
+    define Ch1P2B1_C2_played = 0
+    define Ch1P2B1_C3_played = 0
+    define Ch1P2B1_C4_played = 0
+    define Ch1P3B2_C1_played = 0
+    define Ch1P3B2_C2_played = 0
+    define Ch1P3B2_C3_played = 0
+    define Ch1P1_C3C1 = 0
+    define Ch1P1_C3C2 = 0
+    define Ch2P1_C1_played = 0
+    define Ch2P1_C2_played = 0 
+    define Ch4P1_C3_played = 0
+    define Ch4P1_Choice1 = 0
+    define Ch4P3B1_C3_played = 0
+    define Ch5_Choice1 = 0
+    define Ch5_Choice2 = 0
+    define Ch6P2_Choice1 = 0
+    define Ch6P3_Choice1 = 0
+    define Oth_House_CPlayed = 0
+    define Oth_House_Choice = 0
+    define Oth_AzuCor_Choice1 = 0
+
+    define Elena_Point = 0
+    define Azzurra_Point = 0
+    define Azzurra_Persuasion = 0
+    define Church = 0
+    define Global_ParentPoint = 0
+    define RescueTime = 0
+    define Lohengramm = 0
+    define Azzurra_Stays_With_Fredo = 0
+    define Hanes_Truth = 0
+    define Anatolio_Defies_Hanes = 0
+    define Coin_Toss = 0
+    define A_Rich_Happy_Family = 0
+    define ElenaRescue = 0
+    define QuantumPhysics = 0
+
+    define Force_end_7c = 0
+    define Hopeless_Dream_End = 0
+    define True_end = 0
+    define WAR_END_DEATH_OF_A_SPY = 0
+    define WAR_END_REVOLUTION = 0
+    define A_Rich_Happy_Family_end = 0

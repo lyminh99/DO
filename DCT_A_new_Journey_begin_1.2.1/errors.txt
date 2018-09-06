@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/Code - 1.2.0/System_Setting/Sys_Base_Setting.rpy", line 23: init statement expects a non-empty block.
+    init:
+         ^
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Tue Sep 04 11:59:30 2018

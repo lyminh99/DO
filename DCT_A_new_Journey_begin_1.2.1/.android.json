@@ -1,0 +1,1 @@
+{"layout": null, "package": "dct_njb.dreamorbital", "include_pil": false, "numeric_version": "10200", "expansion": false, "name": "DCT_NJB", "source": false, "icon_name": "DCT_NJB", "version": "1.2.0", "target_version": 14, "permissions": ["VIBRATE"], "include_sqlite": false, "store": "none", "orientation": "sensorLandscape"}
