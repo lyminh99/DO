@@ -34,13 +34,11 @@ label start:
         "Battle System":
             call Battle_Start
         "Start the game Normally":
-            if Sys_Current_Game == "DCT":
+            if persistent.Sys_Current_Game == "DCT":
                 call Sys_DCT_Chk_Ending
-            elif Sys_Current_Game == "SMM":
+            elif persistent.Sys_Current_Game == "SMM":
                 call Sys_SMM_Storyline_VN
 
-    e "game end 1"
-    return
     e"Game end (real)"
 
     return

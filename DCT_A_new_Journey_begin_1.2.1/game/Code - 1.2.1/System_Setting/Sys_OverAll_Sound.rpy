@@ -33,5 +33,5 @@ init -1 python hide:
 
     ## Music that is played while the user is at the main menu.
 
-    config.main_menu_music = "Soundtracks/001 - SMM/001 - Summer Melody.mp3"
+    config.main_menu_music = None #"Soundtracks/001 - SMM/001 - Summer Melody.mp3"
 

@@ -46,8 +46,8 @@ init:
     $ Sys_Mmenu_But05 = Hide('Sys_MainMenu2'), Show("music_room")
     $ Sys_Mmenu_But06 = Hide('Sys_MainMenu2'), Show("databaseAzu")
     $ Sys_Mmenu_But07 = Hide('Sys_MainMenu2'), Show("main_menu")    
-    $ Sys_Mmenu_But08 = Hide('main_menu'), Show('main_menu'), SetVariable ("Sys_Current_Game", "DCT")
-    $ Sys_Mmenu_But09 = Hide('main_menu'), Show('main_menu'), SetVariable ("Sys_Current_Game", "SMM")
+    $ Sys_Mmenu_But08 = Hide('main_menu'), Show('main_menu'), SetField(persistent, "Sys_Current_Game", "DCT")
+    $ Sys_Mmenu_But09 = Hide('main_menu'), Show('main_menu'), SetField(persistent, "Sys_Current_Game", "SMM")
     $ Sys_Mmenu_But10 = Hide('Sys_MainMenu2'), Show("DCT_Scr_NoteBook") 
     
 #, Play("Soundtracks/001 - SMM/001 - Summer Melody.mp3")
@@ -67,9 +67,9 @@ init:
 screen main_menu:
 
     tag menu
-    if Sys_Current_Game == "DCT":
+    if persistent.Sys_Current_Game == "DCT":
         use Sys_DCT_MainMenu_BG
-    elif Sys_Current_Game == "SMM":
+    elif persistent.Sys_Current_Game == "SMM":
         use Sys_SMM_MainMenu_BG
         
     frame:
@@ -79,9 +79,9 @@ screen main_menu:
         vbox:
 
             if persistent.Sys_Langue == "ENG":
-                if Sys_Current_Game == "DCT":
+                if persistent.Sys_Current_Game == "DCT":
                     textbutton ("Summer Melody") action Sys_Mmenu_But09, mr.Play("Soundtracks/001 - SMM/001 - Summer Melody.mp3") style "Style_MainMenu" at Sys_Eff_Appear
-                elif Sys_Current_Game == "SMM":
+                elif persistent.Sys_Current_Game == "SMM":
                     textbutton ("At the Horizon") action Sys_Mmenu_But08, mr.Play("Soundtracks/004 - Lovely Bubbles.ogg") style "Style_MainMenu" at Sys_Eff_Appear
 
                 textbutton ("Start Game") action Start() style "Style_MainMenu" at Sys_Eff_Appear
@@ -91,9 +91,9 @@ screen main_menu:
                 textbutton ("Quit") action Quit(confirm=False) style "Style_MainMenu" at Sys_Eff_Appear
 
             elif persistent.Sys_Langue == "VN":
-                if Sys_Current_Game == "DCT":
+                if persistent.Sys_Current_Game == "DCT":
                     textbutton ("Giai điệu mùa hè") action Sys_Mmenu_But09, mr.Play("Soundtracks/001 - SMM/001 - Summer Melody.mp3") style "Style_MainMenu" at Sys_Eff_Appear
-                elif Sys_Current_Game == "SMM":
+                elif persistent.Sys_Current_Game == "SMM":
                     textbutton ("Đường chân trời") action Sys_Mmenu_But08, mr.Play("Soundtracks/004 - Lovely Bubbles.ogg") style "Style_MainMenu" at Sys_Eff_Appear
 
                 textbutton ("Bắt đầu") action Start() style "Style_MainMenu"
@@ -105,9 +105,9 @@ screen main_menu:
 screen Sys_MainMenu2:
 
     tag menu
-    if Sys_Current_Game == "DCT":
+    if persistent.Sys_Current_Game == "DCT":
         use Sys_DCT_MainMenu_BG
-    elif Sys_Current_Game == "SMM":
+    elif persistent.Sys_Current_Game == "SMM":
         use Sys_SMM_MainMenu_BG
 
     frame:
@@ -134,9 +134,9 @@ screen Sys_DCT_MainMenu_BG:
 
     on "show":
         if renpy.music.get_playing("music") is None:
-            if Sys_Current_Game == "DCT":
+            if persistent.Sys_Current_Game == "DCT":
                 action mr.Play("Soundtracks/004 - Lovely Bubbles.ogg")
-            elif Sys_Current_Game == "SMM":
+            elif persistent.Sys_Current_Game == "SMM":
                 action mr.Play("Soundtracks/001 - SMM/001 - Summer Melody.mp3")
     add "DCT_Screen_title"
     add "DCT_tittle" at Left_to_Right
@@ -145,9 +145,9 @@ screen Sys_SMM_MainMenu_BG:
 
     on "show":
         if renpy.music.get_playing("music") is None:
-            if Sys_Current_Game == "DCT":
+            if persistent.Sys_Current_Game == "DCT":
                 action mr.Play("Soundtracks/004 - Lovely Bubbles.ogg")
-            elif Sys_Current_Game == "SMM":
+            elif persistent.Sys_Current_Game == "SMM":
                 action mr.Play("Soundtracks/001 - SMM/001 - Summer Melody.mp3")
 
     add "SMM_Screen_title" at Top_to_Bottom
